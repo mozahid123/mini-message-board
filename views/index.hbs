@@ -1,0 +1,13 @@
+<h1 class="heading">{{title}}</h1>
+<ul>
+    {{#each messages}}
+    <div class="list">
+    <li class="">{{this.user}}</li>
+     <li class="">{{this.text}}</li>
+     <li class="">{{this.publish}}</li>
+    </div>
+     
+    {{/each}}
+</ul>
+
+<p><a href="/new">Click to add new message</a></p>
